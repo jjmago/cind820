@@ -1,0 +1,13 @@
+Model,Feature Configuration,Accuracy,F1 (Macro),Training Time
+Logistic Regression,TF-IDF (Unigram),0.922,0.92,9.51
+Logistic Regression,TF-IDF (Bigram),0.9238,0.92,43.74
+Logistic Regression,Combined Features (Unigram),0.9259,0.93,212.54
+Logistic Regression,Combined Features (Bigram),0.9264,0.93,270.76
+Random Forest,TF-IDF (Unigram),0.9603,0.96,85.76
+Random Forest,TF-IDF (Bigram),0.9597,0.96,107.23
+Random Forest,Combined Features (Unigram),0.9605,0.96,238.87
+Random Forest,Combined Features (Bigram),0.9606,0.96,314.29
+Linear SVM,TF-IDF (Unigram),0.9234,0.92,11.05
+Linear SVM,TF-IDF (Bigram),0.9247,0.92,45.57
+Linear SVM,Combined Features (Unigram),0.9299,0.93,141.53
+Linear SVM,Combined Features (Bigram),0.9298,0.93,180.07
